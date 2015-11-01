@@ -21,7 +21,7 @@ public class Game extends Canvas implements Runnable  {
 	}
 	
 	public void run () {
-		System.out.println("Vranic je peder!");
+		System.out.println("DAVIDE SISO JEDNA!");
 		long lastTime = System.nanoTime();
 		double amountOfTicks = 60.0;
 		double ns = 1000000000 / amountOfTicks;
