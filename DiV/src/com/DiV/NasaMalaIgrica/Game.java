@@ -20,7 +20,7 @@ public class Game extends Canvas implements Runnable  {
 		thread.start();
 	}
 	public void run () {
-		System.out.println("Vranic je faktard");
+		System.out.println("Izjebo bi asistentkinju MARKETINGA");
 		long lastTime = System.nanoTime();
 		double amountOfTicks = 60.0;
 		double ns = 1000000000 / amountOfTicks;
