@@ -20,7 +20,7 @@ public class Game extends Canvas implements Runnable  {
 		thread.start();
 	}
 	public void run () {
-		System.out.println("Ako ovo uspes da skines, da promenis u uplodujes, uspeli SMO");
+		System.out.println("Pokusaj br. 1");
 		long lastTime = System.nanoTime();
 		double amountOfTicks = 60.0;
 		double ns = 1000000000 / amountOfTicks;
